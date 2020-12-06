@@ -1,0 +1,33 @@
+.single-movie {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 2fr;
+}
+
+.single-movie img {
+    width: 100%;
+}
+
+.movie-title {
+    font-size: 40px;
+}
+
+.movie-plot {
+    color: #324d67;
+    font-size: 19px;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    margin: 40px 0;
+}
+
+#btn-back {
+    border: none;
+    outline: none;
+    background-color: #49a6e9;
+    color: #ffffff;
+    padding: 4px 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
